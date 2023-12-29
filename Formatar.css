@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+
+body {
+    background-color: #303030;
+}
+
+p {
+    text-align: justify;
+}
+
+#cabecalho p {
+    color: #cacacc;
+    font-family: "Montserrat", sans-serif;
+    background-color: #262626;
+    border-bottom: solid;
+    border-color: #000000;
+    padding: 10%;
+    width: 87%;
+    position: relative;
+    left: -7px;
+}
+
+/*formataçao do menu*/
+
+/*hr {
+    position: relative;
+    top: 16px;
+    width: 20px;
+    height: 2px;
+    background-color: #cacacc;
+    border-color: black;
+    margin-top: -5px;
+
+    right: 162px;
+    border-radius: 20px 20px 20px;
+}*/
+.cor {
+    color: #cacacc;
+    text-shadow: 1px 2px 1px #9ea6ad;
+}
+
+#menu h1 {
+    position: relative;
+    top: -24px;
+    right: 130px;
+    font-size: 35px;
+    color: #9ea6ad;
+    text-shadow: 1px 2px 1px #cacacc;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    /* background-color: #262626;*/
+    height: 100px;
+    width: 107%;
+    top: -4px;
+    left: -8px;
+    /*border-bottom: solid;*/
+    /* border-color: #000000;*/
+}
+#menu p {
+    position: absolute;
+    color: #cacacc;
+    top: 38px;
+    left: 15%;
+    font-size: 120%;
+    font-family: "Montserrat", sans-serif;
+}
+.navlist {
+    list-style: none;
+}
+
+.navlist li {
+    margin: 12px;
+    opacity: 0;
+}
+
+.hamburguer div {
+    height: 2px;
+    width: 22px;
+    background: #cacacc;
+    position: relative;
+    top: 10px;
+    margin: 6px;
+    right: 5px;
+}
+
+/*formataçao da navegaçao secundaria*/
+figure {
+    text-align: center;
+    color: #cacacc;
+    border: solid 1px #000000;
+    box-shadow: 2px 4px 3px black;
+    padding: 5px;
+}
+
+img.verm {
+    filter: drop-shadow(0 0 3px #bf0006);
+}
+img.verd {
+    filter: drop-shadow(0 0 4px #0084c2);
+}
+
+img#azu {
+    filter: drop-shadow(0 0 2px #cacacc);
+}
+
+footer#rodape {
+    color: white;
+    clear: both;
+    height: 100px;
+    width: 107%;
+    background-color: #262626;
+    position: relative;
+    left: -8px;
+    border-top: 2px solid;
+}
