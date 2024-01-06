@@ -4,9 +4,9 @@ body {
     background-color: #303030;
 }
 
-p {
+/*p {
     text-align: justify;
-}
+}*/
 
 #cabecalho p {
     color: #cacacc;
@@ -18,6 +18,7 @@ p {
     width: 87%;
     position: relative;
     left: -7px;
+    text-align: justify;
 }
 
 /*formataçao do menu*/
@@ -40,10 +41,10 @@ p {
 }
 
 #menu h1 {
-    position: relative;
-    top: -24px;
-    right: 130px;
-    font-size: 35px;
+    position: absolute;
+    top: -23px;
+    left: 45%;
+    font-size: 40px;
     color: #9ea6ad;
     text-shadow: 1px 2px 1px #cacacc;
 }
@@ -51,7 +52,7 @@ p {
 #menu {
     display: flex;
     justify-content: space-around;
-    position: relative;
+    position: static;
     /* background-color: #262626;*/
     height: 100px;
     width: 107%;
@@ -64,7 +65,7 @@ p {
     position: absolute;
     color: #cacacc;
     top: 38px;
-    left: 15%;
+    left: 35%;
     font-size: 120%;
     font-family: "Montserrat", sans-serif;
 }
@@ -77,23 +78,51 @@ p {
     opacity: 0;
 }
 
+body #menu .hamburguer {
+    position: absolute;
+    right: 90%;
+}
+
 .hamburguer div {
     height: 2px;
     width: 22px;
     background: #cacacc;
-    position: relative;
-    top: 10px;
     margin: 6px;
-    right: 5px;
+    right: 20px;
 }
 
 /*formataçao da navegaçao secundaria*/
+#navsecudaria {
+    display: flex;
+}
+@media (max-width: 768px) {
+    #navsecudaria {
+        flex-direction: column;
+        align-items: center;
+    }
+    figure {
+        width: 250px;
+    }
+}
+a {
+  text-decoration: none;
+  
+}
+
 figure {
     text-align: center;
     color: #cacacc;
     border: solid 1px #000000;
     box-shadow: 2px 4px 3px black;
-    padding: 5px;
+    padding: 10px;
+    width: 250px;
+    height: 300px;
+
+}
+
+figure p {
+    text-align: justify;
+    text-indent: 30px;
 }
 
 img.verm {
@@ -108,6 +137,7 @@ img#azu {
 }
 
 footer#rodape {
+    text-indent: 30px;
     color: white;
     clear: both;
     height: 100px;
