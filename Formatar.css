@@ -91,6 +91,37 @@ body #menu .hamburguer {
     right: 20px;
 }
 
+/*formatação das páginas*/
+#fundo {
+    width: 107%;
+    height: 450px;
+    position: relative;
+    left: -8px;
+    border-bottom: 2px solid #000000;
+}
+
+#inf {
+    border-bottom: 2px solid #000000;
+    background-color: #262626;
+    position: relative;
+    top: -3vh;
+    width: 87%;
+    left: -8px;
+}
+#inf ul {
+    display: flex;
+    position: static;
+    top: -5vh;
+}
+
+#inf li {
+    color: #cacacc;
+    list-style: none;
+    border-right: 2px solid #000000;
+    padding-right: 50px;
+    margin-left: 70px;
+}
+
 /*formataçao da navegaçao secundaria*/
 #navsecudaria {
     display: flex;
@@ -103,10 +134,26 @@ body #menu .hamburguer {
     figure {
         width: 250px;
     }
+    #fundo {
+        height: 200px;
+    }
+    #inf {
+        border-bottom: 2px solid #000000;
+        background-color: #262626;
+        position: relative;
+        top: -3vh;
+        width: 107%;
+        left: -8px;
+    }
+
+    #inf li {
+        border-right: 2px solid #000000;
+        padding-right: 13.4%;
+        margin-left: 20px;
+    }
 }
 a {
-  text-decoration: none;
-  
+    text-decoration: none;
 }
 
 figure {
@@ -117,7 +164,6 @@ figure {
     padding: 10px;
     width: 250px;
     height: 300px;
-
 }
 
 figure p {
